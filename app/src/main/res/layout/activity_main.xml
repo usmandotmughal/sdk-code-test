@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adtraxsdk.sample.com.adtrax.MainActivity"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Dev Key"
+            />
+        <EditText
+            android:id="@+id/devkey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="58f15d99d37f8b04f8273ec7"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Dev Secret"
+            />
+        <EditText
+            android:id="@+id/devsecret"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="04464e03f0c71bdc09665864007c557a"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="App User ID"
+            />
+        <EditText
+            android:id="@+id/appUserID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="User Mail"
+            />
+        <EditText
+            android:id="@+id/userMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dheena@adofgames.com"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="App Channel"
+            />
+        <EditText
+            android:id="@+id/channel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google Play Store"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sendInstall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Referrer (Install)"
+        />
+
+    <Button
+        android:id="@+id/sendOpen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Event (Open)"
+        />
+
+    <Button
+        android:id="@+id/sendScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Event (Screen)"
+        />
+
+    <Button
+        android:id="@+id/sendDynamic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Event (Dynamic)"
+        />
+</LinearLayout>

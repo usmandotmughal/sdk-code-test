@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivity">
+
+    <LinearLayout
+        android:id="@+id/textGuide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:text= "@string/instruction"
+            android:textColor="@color/blue"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/install_guide"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/packagename_guide"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/run_test_guide"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            />
+    </LinearLayout>
+
+    <AutoCompleteTextView
+        android:id="@+id/packageList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textGuide"
+        android:hint="@string/select_app"
+        android:textColorHint="@color/red"
+        android:layout_margin="20dp"
+        >
+
+    </AutoCompleteTextView>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/packageList"
+        android:layout_margin="25dp"
+        >
+        <Button
+            android:id="@+id/testButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/test"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

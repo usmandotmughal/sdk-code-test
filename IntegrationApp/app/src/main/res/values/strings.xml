@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Adtrax SDK Integration</string>
+    <string name="install_guide">1. Install your app with Adtrax SDK.</string>
+    <string name="packagename_guide">2. Enter the package name of your app below.</string>
+    <string name="run_test_guide">3. Run the test.</string>
+    <string name="instruction">Test Instructions.</string>
+    <string name="select_app">Select an App...</string>
+    <string name="test">Run Test</string>
+    <string name="set_packageName">Enter Package Name!</string>
+    <string name="no_exist_package">No Exist Package.</string>
+    <string name="check_package_name">Please make sure package exists on device.</string>
+    <string name="no_installer">No Exist Installer.</string>
+    <string name="check_receiver">Please make sure InstallReferrer.</string>
+    <string name="check_configuration">Checking Configration.</string>
+    <string name="no_exist_activity">No Exist Launch Intent.</string>
+</resources>
